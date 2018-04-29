@@ -1,0 +1,68 @@
+#servicesbar{
+    height: 900px;
+    background: #f5f5f6;
+    .container{
+        width: 1200px;
+        margin: 0px auto;
+        h3{
+            &:first-child{
+                position: absolute;
+                top: 145pc;
+                left: 37pc;
+                font-size: 35px;
+            }
+        }
+        .icon{
+            float: left;
+            height: 200px;
+            width: 300px;
+            text-align: center;
+            margin-top: 170px;
+            box-sizing: border-box;
+            padding: 20px;
+            
+            h3{
+                margin:0px auto;
+                font-weight: 300;
+                width: 245px;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: underline;
+                    color:$colorGreen;
+                }
+            }
+           
+            
+            .icon-menu{
+                margin:30px auto;
+                text-align: center;
+                line-height: 100px;
+                
+            }
+            i{
+                font-size: 50px;
+                color:$colorGreen;
+                &:hover{
+                    color: $colorGreenLight;
+                    cursor: pointer;
+                }
+            }
+        }
+        .ox02{
+                position: absolute;
+                left: 596px;
+                top: 3107px;
+                i{
+                    position: absolute;
+                    padding: 7px;
+                    font-size: 25px;
+                    top: 18px;
+                    left: 65px;
+                    color: #42b773;
+                    &:hover{
+                        top:25px;
+                    }
+                }
+            }
+    }
+}

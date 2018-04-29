@@ -1,0 +1,767 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.section-padding, #topbar, #topbar .infobar, .infobar {
+  padding: 20px 0px;
+}
+
+.inline-block, #topbar .container .logo, #topbar .container .navbar, #topbar .container .navbar ul li {
+  display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
+
+#head {
+  background-size: cover;
+  max-width: 100%;
+  height: 1100px;
+  background: url(https://livedemo00.template-help.com/wt_55408_v2/images/page-1_img01.jpg);
+}
+
+#topbar {
+  font-family: "Lato", sans-serif;
+  height: 150px;
+  margin-top: 40px;
+}
+#topbar .container .logo {
+  width: 300px;
+  float: left;
+  cursor: pointer;
+  height: 30px;
+}
+#topbar .container .navbar {
+  width: 600px;
+  float: right;
+}
+#topbar .container .navbar ul {
+  margin: 0px;
+  padding: 0px;
+}
+#topbar .container .navbar ul li {
+  line-height: 65px;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0px 10px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+#topbar .container .navbar ul li:hover {
+  color: #a5da56;
+}
+#topbar .container .navbar ul li:first-child {
+  color: #a5da56;
+}
+#topbar .container .navbar ul li i:hover {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+#topbar .infobar {
+  position: relative;
+}
+#topbar .infobar .container .menu {
+  width: 1200px;
+  position: relative;
+}
+#topbar .infobar .container .menu .menu-bar {
+  width: calc(100%-300px);
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  color: white;
+  text-align: center;
+}
+#topbar .infobar .container .menu .menu-bar button {
+  padding: 20px 60px;
+  border-radius: 5px;
+}
+
+#head .ox {
+  position: absolute;
+  left: 596px;
+  top: 996px;
+}
+#head .ox i {
+  font-size: 25px;
+  position: absolute;
+  padding: 7px;
+  top: 18px;
+  left: 65px;
+  color: #42b772;
+}
+#head .ox i:hover {
+  top: 25px;
+}
+
+.infobar {
+  position: relative;
+}
+.infobar .container .menu {
+  width: 1200px;
+  position: relative;
+}
+.infobar .container .menu .menu-bar {
+  width: calc(100%-300px);
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  color: white;
+  text-align: center;
+}
+.infobar .container .menu .menu-bar h3 {
+  font-size: 25px;
+}
+.infobar .container .menu .menu-bar h2 {
+  font-size: 35px;
+}
+.infobar .container .menu .menu-bar button {
+  padding: 20px 60px;
+  outline: none;
+  border-radius: 5px;
+  background: #42b773;
+  background: linear-gradient(to right, #42b773, #a5da56);
+  color: white;
+}
+.infobar .container .menu .menu-bar button:hover {
+  background: linear-gradient(to right, #42b773, #42b773);
+  transition: all 0.3s ease;
+}
+
+#slidebar {
+  font-family: "Lato", sans-serif;
+  height: 400px;
+}
+#slidebar .container {
+  width: 1200px;
+  margin: 0px auto;
+}
+#slidebar .container .part {
+  float: left;
+  width: 600px;
+  height: 160px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#slidebar .container .part:hover .circle {
+  background: #a9dc56;
+  color: white;
+  border: 3px solid #a9dc56;
+}
+#slidebar .container .part .circle {
+  width: 130px;
+  height: 130px;
+  border: 3px solid #65899754;
+  float: left;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 130px;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #65899754;
+  transition: 0.3s;
+  margin-right: 32px;
+  font-weight: 400;
+}
+#slidebar .container .part h3 {
+  color: #42b773;
+  cursor: pointer;
+}
+#slidebar .container .part h3:hover {
+  text-decoration: underline;
+  color: black;
+}
+#slidebar .container .part p {
+  cursor: pointer;
+  color: grey;
+  font-size: 14px;
+}
+#slidebar .ox01 {
+  position: absolute;
+  left: 596px;
+  top: 1507px;
+}
+#slidebar .ox01 i {
+  position: absolute;
+  padding: 7px;
+  font-size: 25px;
+  top: 18px;
+  left: 65px;
+  color: white;
+}
+#slidebar .ox01 i:hover {
+  top: 25px;
+}
+
+#aboutbar {
+  height: 700px;
+  background: linear-gradient(#42b772, #a9dc56);
+}
+#aboutbar .container {
+  width: 1200px;
+  margin: 0px auto;
+}
+#aboutbar .container h3:first-child {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+#aboutbar .container .about {
+  margin-top: 0px;
+  float: left;
+  width: 400px;
+  height: 160px;
+  box-sizing: border-box;
+  padding: 12px 70px;
+  position: relative;
+}
+#aboutbar .container .about .round {
+  width: 130px;
+  height: 130px;
+  float: left;
+  transition: 0.3s;
+  position: absolute;
+  margin: 65px auto;
+}
+#aboutbar .container .about .round img {
+  border-radius: 50%;
+}
+#aboutbar .container .about h3 {
+  text-align: center;
+  margin-top: 350px;
+  color: white;
+}
+#aboutbar .container .about h3:hover {
+  color: black;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+#aboutbar .container .about p {
+  color: white;
+  width: 330px;
+  text-align: center;
+}
+#aboutbar .container .ox01 {
+  position: absolute;
+  left: 596px;
+  top: 2273px;
+}
+#aboutbar .container .ox01 i {
+  position: absolute;
+  padding: 7px;
+  font-size: 25px;
+  top: 18px;
+  left: 65px;
+  color: white;
+}
+#aboutbar .container .ox01 i:hover {
+  top: 25px;
+}
+
+#servicesbar {
+  height: 900px;
+  background: #f5f5f6;
+}
+#servicesbar .container {
+  width: 1200px;
+  margin: 0px auto;
+}
+#servicesbar .container h3:first-child {
+  position: absolute;
+  top: 145pc;
+  left: 37pc;
+  font-size: 35px;
+}
+#servicesbar .container .icon {
+  float: left;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  margin-top: 170px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+#servicesbar .container .icon h3 {
+  margin: 0px auto;
+  font-weight: 300;
+  width: 245px;
+  cursor: pointer;
+}
+#servicesbar .container .icon h3:hover {
+  text-decoration: underline;
+  color: #42b773;
+}
+#servicesbar .container .icon .icon-menu {
+  margin: 30px auto;
+  text-align: center;
+  line-height: 100px;
+}
+#servicesbar .container .icon i {
+  font-size: 50px;
+  color: #42b773;
+}
+#servicesbar .container .icon i:hover {
+  color: #a5da56;
+  cursor: pointer;
+}
+#servicesbar .container .ox02 {
+  position: absolute;
+  left: 596px;
+  top: 3107px;
+}
+#servicesbar .container .ox02 i {
+  position: absolute;
+  padding: 7px;
+  font-size: 25px;
+  top: 18px;
+  left: 65px;
+  color: #42b773;
+}
+#servicesbar .container .ox02 i:hover {
+  top: 25px;
+}
+
+#galarybar {
+  height: 550px;
+}
+#galarybar h3 {
+  position: absolute;
+  font-size: 45px;
+  left: 35pc;
+  top: 199pc;
+  color: #42464f;
+}
+#galarybar .galaryiner {
+  margin-top: 130px;
+}
+#galarybar .galaryiner .foto {
+  height: 222px;
+  float: left;
+}
+#galarybar .galaryiner .foto .item01 {
+  width: 168px;
+  height: 111px;
+  position: relative;
+}
+#galarybar .galaryiner .foto .item01 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto .item01 .but h2 {
+  position: absolute;
+  z-index: 1000;
+  top: 23px;
+  left: 43px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto .item01:hover {
+  opacity: 0.5;
+}
+#galarybar .galaryiner .foto .item01:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto01 {
+  float: left;
+  top: 0px;
+  height: 222px;
+  width: 336px;
+}
+#galarybar .galaryiner .foto01 .item02 {
+  position: relative;
+}
+#galarybar .galaryiner .foto01 .item02 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto01 .item02 .but h2 {
+  position: absolute;
+  z-index: 1500;
+  top: 78px;
+  left: 136px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto01 .item02:hover {
+  opacity: 0.3;
+}
+#galarybar .galaryiner .foto01 .item02:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto02 {
+  float: left;
+  height: 222px;
+  width: 337px;
+}
+#galarybar .galaryiner .foto02 .item03 {
+  width: 168.5px;
+  height: 111px;
+  float: left;
+  position: relative;
+}
+#galarybar .galaryiner .foto02 .item03 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto02 .item03 .but h2 {
+  position: absolute;
+  z-index: 1000;
+  top: 23px;
+  left: 43px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto02 .item03:hover {
+  opacity: 0.5;
+}
+#galarybar .galaryiner .foto02 .item03:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto03 {
+  float: left;
+  width: 336px;
+  height: 222px;
+}
+#galarybar .galaryiner .foto03 .item04 {
+  position: relative;
+}
+#galarybar .galaryiner .foto03 .item04 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto03 .item04 .but h2 {
+  position: absolute;
+  z-index: 1500;
+  top: 78px;
+  left: 136px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto03 .item04:hover {
+  opacity: 0.3;
+}
+#galarybar .galaryiner .foto03 .item04:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto04 {
+  float: left;
+  height: 222px;
+  width: 168px;
+}
+#galarybar .galaryiner .foto04 .item05 {
+  width: 168px;
+  float: left;
+  height: 111px;
+  position: relative;
+}
+#galarybar .galaryiner .foto04 .item05 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto04 .item05 .but h2 {
+  position: absolute;
+  z-index: 1000;
+  top: 23px;
+  left: 43px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto04 .item05:hover {
+  opacity: 0.5;
+}
+#galarybar .galaryiner .foto04 .item05:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto05 {
+  float: left;
+  height: 222px;
+  width: 336px;
+}
+#galarybar .galaryiner .foto05 .item06 {
+  position: relative;
+}
+#galarybar .galaryiner .foto05 .item06 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto05 .item06 .but h2 {
+  position: absolute;
+  z-index: 1500;
+  top: 98px;
+  left: 126px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto05 .item06:hover {
+  opacity: 0.3;
+}
+#galarybar .galaryiner .foto05 .item06:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto06 {
+  float: left;
+  height: 222px;
+  width: 168px;
+}
+#galarybar .galaryiner .foto06 .item07 {
+  float: left;
+  width: 168px;
+  height: 111px;
+  position: relative;
+}
+#galarybar .galaryiner .foto06 .item07 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto06 .item07 .but h2 {
+  position: absolute;
+  z-index: 1000;
+  top: 23px;
+  left: 43px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto06 .item07:hover {
+  opacity: 0.5;
+}
+#galarybar .galaryiner .foto06 .item07:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto07 {
+  float: left;
+  width: 336px;
+  height: 222px;
+}
+#galarybar .galaryiner .foto07 .item08 {
+  position: relative;
+}
+#galarybar .galaryiner .foto07 .item08 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto07 .item08 .but h2 {
+  position: absolute;
+  z-index: 1500;
+  top: 98px;
+  left: 136px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto07 .item08:hover {
+  opacity: 0.3;
+}
+#galarybar .galaryiner .foto07 .item08:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto08 {
+  float: left;
+  height: 222px;
+  width: 168px;
+}
+#galarybar .galaryiner .foto08 .item09 {
+  float: left;
+  width: 168px;
+  height: 111px;
+  position: relative;
+}
+#galarybar .galaryiner .foto08 .item09 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto08 .item09 .but h2 {
+  position: absolute;
+  z-index: 1000;
+  top: 23px;
+  left: 43px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto08 .item09:hover {
+  opacity: 0.5;
+}
+#galarybar .galaryiner .foto08 .item09:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .galaryiner .foto09 {
+  width: 336px;
+  height: 222px;
+  float: left;
+}
+#galarybar .galaryiner .foto09 .item10 {
+  position: relative;
+}
+#galarybar .galaryiner .foto09 .item10 img {
+  width: 100%;
+}
+#galarybar .galaryiner .foto09 .item10 .but h2 {
+  position: absolute;
+  z-index: 1500;
+  top: 98px;
+  left: 136px;
+  background: green;
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+}
+#galarybar .galaryiner .foto09 .item10:hover {
+  opacity: 0.3;
+}
+#galarybar .galaryiner .foto09 .item10:hover .but h2 {
+  opacity: 1;
+}
+#galarybar .ox02 {
+  position: absolute;
+  left: 596px;
+  top: 3787px;
+}
+#galarybar .ox02 i {
+  position: absolute;
+  padding: 7px;
+  font-size: 25px;
+  top: 18px;
+  left: 65px;
+  color: white;
+}
+#galarybar .ox02 i:hover {
+  top: 25px;
+}
+
+#itembar {
+  background: #42b773;
+  height: 70px;
+}
+#itembar .container .items {
+  margin-left: 446px;
+  padding-top: 12px;
+}
+#itembar .container .items .item {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  line-height: 50px;
+}
+#itembar .container .items .item:hover {
+  background: #a5da56;
+}
+#itembar .container .items .item i {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  line-height: 50px;
+}
+
+#contactsbar {
+  background-size: cover;
+  position: relative;
+}
+#contactsbar .map {
+  position: absolute;
+  left: 20px;
+  width: 1300px;
+  opacity: 0.3;
+}
+#contactsbar .container .contact {
+  position: absolute;
+  width: 500px;
+  top: 50px;
+  left: 420px;
+  text-align: center;
+  box-sizing: border-box;
+}
+#contactsbar .container .contact h2 {
+  font-size: 35px;
+}
+#contactsbar .container .contact i {
+  color: #42b773;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+#contactsbar .container .contact p {
+  font-size: 15px;
+}
+#contactsbar .container .inputs {
+  width: 1100px;
+  padding: 20px 20px;
+  position: absolute;
+  top: 215px;
+  left: 180px;
+}
+#contactsbar .container .inputs input {
+  width: 300px;
+  height: 50px;
+  padding: 0px 20px;
+  border-radius: 4.5px;
+  border: 0.5px solid grey;
+}
+#contactsbar .container .input01 {
+  width: 1100px;
+  position: absolute;
+  top: 320px;
+  left: 100px;
+}
+#contactsbar .container .input01 input {
+  width: 1100px;
+  height: 150px;
+  border-radius: 4.5px;
+  border: 0.5px solid grey;
+}
+#contactsbar .container .btn {
+  position: absolute;
+  top: 517px;
+  left: 575px;
+}
+#contactsbar .container .btn button {
+  width: 200px;
+  height: 50px;
+  background: #42b773;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+#contactsbar .container .btn button:hover {
+  background: #a5da56;
+}
+#contactsbar .container .ox02 {
+  position: absolute;
+  left: 596px;
+  top: 588px;
+}
+#contactsbar .container .ox02 i {
+  position: absolute;
+  padding: 7px;
+  font-size: 25px;
+  top: 18px;
+  left: 65px;
+  color: #42b773;
+}
+#contactsbar .container .ox02 i:hover {
+  top: 25px;
+}
+
+#buttonbar {
+  width: 1200px;
+  height: 100px;
+  position: relative;
+  top: 670px;
+  text-align: center;
+  left: 75px;
+}

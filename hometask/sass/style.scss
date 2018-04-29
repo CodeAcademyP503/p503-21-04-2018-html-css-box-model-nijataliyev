@@ -1,0 +1,44 @@
+$colorGreen:#42b773;
+$colorGreenLight:#a5da56;
+$mainfont:'Lato', sans-serif;
+$mainwidth:1200px;
+$colorBlack:black;
+
+body{
+    margin:0px;
+}
+
+.container{
+    width:$mainwidth;
+    margin:0px auto;
+}
+.section-padding{
+    padding: 20px 0px;
+}
+.inline-block{
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+#head{
+    
+        background-size: cover;
+        max-width:100%;
+        height: 1100px;
+        background: url(https://livedemo00.template-help.com/wt_55408_v2/images/page-1_img01.jpg);
+
+
+    
+}
+
+
+@import "lib/topbar";
+@import "lib/infobar";
+@import "lib/slidebar";
+@import "lib/aboutbar";
+@import "lib/servicesbar";
+@import "lib/galarybar";
+@import "lib/itembar";
+@import "lib/contactsbar";
+@import "lib/buttonbar";

@@ -1,0 +1,363 @@
+#galarybar{
+            height: 550px;
+        h3{
+            position: absolute;
+            font-size: 45px;
+            left: 35pc;
+            top: 199pc;
+            color: #42464f;
+        }
+    .galaryiner{
+        margin-top:130px;
+        .foto{
+            
+            height: 222px;
+            float: left;
+            .item01{
+                width: 168px;
+                height: 111px;
+                position: relative;
+                img{
+                width: 100%;
+                    
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1000;
+                        top: 23px;
+                        left: 43px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+        
+                    }
+                }
+                &:hover{
+                    opacity: 0.5;
+                    .but{
+                        h2{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+           
+        }
+        .foto01{
+            float: left;
+            top:0px;
+            height: 222px;
+            width: 336px;
+            .item02{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1500;
+                        top: 78px;
+                        left: 136px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+                    }
+                }
+                &:hover{
+                    opacity: 0.3;
+                    .but{
+                        h2{
+                            opacity:1;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .foto02{
+            float: left;
+            height: 222px;
+            width: 337px;
+            .item03{
+                width: 168.5px;
+                height: 111px;
+                float: left;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1000;
+                        top: 23px;
+                        left: 43px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+        
+                    }
+                }
+                &:hover{
+                    opacity: 0.5;
+                    .but{
+                        h2{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .foto03{
+            float: left;
+            width: 336px;
+            height: 222px;
+            .item04{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1500;
+                        top: 78px;
+                        left: 136px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+                    }
+                }
+                &:hover{
+                    opacity: 0.3;
+                    .but{
+                        h2{
+                            opacity:1;
+                        }
+                    }
+                }
+            }
+        }
+        .foto04{
+            float: left;
+            height: 222px;
+            width: 168px;
+            .item05{
+                width: 168px;
+                float: left;
+                height: 111px;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1000;
+                        top: 23px;
+                        left: 43px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+        
+                    }
+                }
+                &:hover{
+                    opacity: 0.5;
+                    .but{
+                        h2{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .foto05{
+            float: left;
+            height: 222px;
+            width: 336px;
+            .item06{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1500;
+                        top: 98px;
+                        left: 126px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+                    }
+                }
+                &:hover{
+                    opacity: 0.3;
+                    .but{
+                        h2{
+                            opacity:1;
+                        }
+                    }
+                }
+
+            }
+        }
+        .foto06{
+            float: left;
+            height: 222px;
+            width: 168px;
+            .item07{
+                float:left;
+                width: 168px;
+                height: 111px;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1000;
+                        top: 23px;
+                        left: 43px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+        
+                    }
+                }
+                &:hover{
+                    opacity: 0.5;
+                    .but{
+                        h2{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .foto07{
+            float: left;
+            width: 336px;
+            height: 222px;
+            .item08{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1500;
+                        top: 98px;
+                        left: 136px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+                    }
+                }
+                &:hover{
+                    opacity: 0.3;
+                    .but{
+                        h2{
+                            opacity:1;
+                        }
+                    }
+                }
+            }
+        }
+        .foto08{
+            float: left;
+            height: 222px;
+            width: 168px;
+            .item09{
+                float: left;
+                width: 168px;
+                height: 111px;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1000;
+                        top: 23px;
+                        left: 43px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+        
+                    }
+                }
+                &:hover{
+                    opacity: 0.5;
+                    .but{
+                        h2{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .foto09{
+            width: 336px;
+            height: 222px;
+            float: left;
+            .item10{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .but{
+                    h2{
+                        position: absolute;
+                        z-index: 1500;
+                        top: 98px;
+                        left: 136px;
+                        background: green;
+                        border-radius: 6px;
+                        color:white;
+                        opacity: 0;
+                    }
+                }
+                &:hover{
+                    opacity: 0.3;
+                    .but{
+                        h2{
+                            opacity:1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ox02{
+        position: absolute;
+        left: 596px;
+        top: 3787px;
+        i{
+            position: absolute;
+            padding: 7px;
+            font-size: 25px;
+            top: 18px;
+            left: 65px;
+            color: white;
+            &:hover{
+                top:25px;
+            }
+        }
+    }
+}

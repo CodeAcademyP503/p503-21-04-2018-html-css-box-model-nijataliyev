@@ -1,0 +1,91 @@
+#contactsbar{
+    background-size: cover;
+    position: relative;
+    .map{
+        position: absolute;
+        left:20px;
+        width: 1300px;
+        opacity:0.3;
+    }
+    .container{
+        .contact{
+            position: absolute;
+            width: 500px;
+            top:50px;
+            left:420px;
+            text-align: center;
+            box-sizing: border-box;
+            h2{
+                font-size: 35px;
+            }
+            i{
+                color:#42b773;
+                padding: 0px 20px;
+                font-size:20px;
+            }
+            p{
+                font-size:15px;
+            }
+            
+        }
+        .inputs{
+            width: 1100px;
+            padding:20px 20px;
+            position: absolute;
+            top:215px;
+            left:180px;
+            
+            input{
+                width: 300px;
+                height: 50px;
+                padding: 0px 20px;
+                border-radius:4.5px;
+                border:0.5px solid grey;
+            }
+        }
+        .input01{
+            width: 1100px;
+            position: absolute;
+            top:320px;
+            left:100px;
+            input{
+                width:1100px;
+                height: 150px;
+                border-radius: 4.5px;
+                border:0.5px solid grey;
+            }
+        }
+        .btn{
+            position: absolute;
+            top:517px;
+            left:575px;
+            button{
+                width: 200px;
+                height:50px;
+                background: #42b773;
+                color:white;
+                border-radius:5px;
+                border: none;
+                &:hover{
+                    background: #a5da56;
+                }
+            }
+        }
+        .ox02{
+            position: absolute;
+            left: 596px;
+            top: 588px;
+            i{
+                position: absolute;
+                padding: 7px;
+                font-size: 25px;
+                top: 18px;
+                left: 65px;
+                color: #42b773;
+                &:hover{
+                    top:25px;
+                }
+            }
+        }
+    }
+}

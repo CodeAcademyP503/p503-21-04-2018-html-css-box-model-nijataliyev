@@ -1,0 +1,95 @@
+#topbar{
+    font-family: $mainfont;
+    height:150px;
+    @extend .section-padding;
+    margin-top: 40px;
+    .container{
+        .logo{
+            @extend .inline-block;
+            width: $mainwidth/4;
+            float:left;
+            cursor: pointer;
+            height: 30px;
+
+        }
+        .navbar{
+            width: $mainwidth/2;
+            @extend .inline-block;
+            float: right;
+           
+            ul{
+                margin:0px;
+                padding:0px;
+                li{
+                    line-height: 65px;
+                    list-style:none;
+                    @extend .inline-block;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    margin:0px 10px;
+                    cursor: pointer;
+                    color:$colorBlack;
+                    font-weight: bold;
+                    &:hover{
+                        color:$colorGreenLight;
+                    }
+                    &:first-child{
+                        color:$colorGreenLight;
+                    }
+                    i{
+                        &:hover{
+                            transform: rotate(180deg);
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    .infobar{
+        position: relative;
+        @extend .section-padding;
+        .container{
+            .menu{
+                width: $mainwidth;
+                position: relative;
+                   .menu-bar{
+                    width: calc(100%-300px);
+                    position: absolute;
+                    top:300px;
+                    left:300px;
+                    color:white;
+                    text-align: center;
+                    button{
+                        padding: 20px 60px;
+                        border-radius: 5px;
+                    }
+    
+                   }
+                
+            }
+        }
+    }
+  
+
+}
+#head{
+    .ox{
+        position: absolute;
+        left: 596px;
+        top: 996px;
+        i{
+            font-size: 25px;
+            position: absolute;
+            padding: 7px;
+            top: 18px;
+            left: 65px;
+            color:#42b772;
+            &:hover{
+                top:25px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,67 @@
+#aboutbar{
+    height: 700px;
+    background: linear-gradient(#42b772,#a9dc56);
+    .container{
+        width: 1200px;
+        margin: 0px auto;
+        h3{
+         &:first-child{
+            color:white;
+            font-size: 35px;
+            text-align: center;
+         }       
+        }
+        .about{
+            margin-top:0px;
+            float: left;
+            width: 400px;
+            height: 160px;
+            box-sizing: border-box;
+            padding:12px 70px;
+            position: relative;
+        .round{
+            width: 130px;
+                height: 130px;
+                float:left;
+                transition: 0.3s;
+                position: absolute;
+                margin:65px auto;
+                
+                img{
+                    border-radius: 50%;
+                }
+            }
+            h3{
+                text-align: center;
+                margin-top: 350px;
+                color:white;
+                &:hover{
+                    color: black;
+                    text-decoration: underline;
+                    transition: all 0.3s ease;
+                }
+            }
+            p{
+                color:white;
+                width: 330px;
+                text-align: center;
+            }
+        }
+        .ox01{
+            position: absolute;
+            left: 596px;
+            top: 2273px;
+            i{
+                position: absolute;
+                padding: 7px;
+                font-size: 25px;
+                top: 18px;
+                left: 65px;
+                color:white;
+                &:hover{
+                    top:25px;
+                }
+            }
+        }
+    }
+}

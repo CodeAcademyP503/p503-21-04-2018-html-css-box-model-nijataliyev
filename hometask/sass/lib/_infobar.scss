@@ -1,0 +1,38 @@
+.infobar{
+    position: relative;
+    @extend .section-padding;
+    .container{
+        .menu{
+            width: $mainwidth;
+            position: relative;
+               .menu-bar{
+                width: calc(100%-300px);
+                position: absolute;
+                top:150px;
+                left:0px;
+                color:white;
+                text-align: center;
+                h3{
+                    font-size: 25px;
+                }
+                h2{
+                    font-size: 35px;
+                }
+                button{
+                    padding: 20px 60px;
+                    outline: none;
+                    border-radius: 5px;
+                    background: #42b773;
+                    background: linear-gradient(to right, #42b773, #a5da56);
+                    color: white;
+                    &:hover{
+                        background: linear-gradient(to right, #42b773 , #42b773);
+                        transition:all 0.3s ease;
+                    }
+                }
+
+               }
+            
+        }
+    }
+}
